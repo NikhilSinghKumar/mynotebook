@@ -4,7 +4,8 @@
   "description": "mynotebook - a notebook on the cloud to plan your day to day activities.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon dev-server.js"
   },
   "author": "",
   "license": "ISC",
