@@ -84,7 +84,7 @@ router.post('/login', [
         res.status(500).send("internal server error");
     }
 })
-// Route 1: Get loggedin User details: post "/api/auth/". login require
+// Route 3: Get loggedin User details: post "/api/auth/getuser". login require
 router.post('/getuser', fetchuser , async (req, res) => {
 
 try{
