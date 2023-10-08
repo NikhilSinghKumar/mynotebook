@@ -49,7 +49,11 @@ router.post(
     }
 });
 
+<<<<<<< HEAD
 // Route 3: Update an existing Note using: PUT "/api/notes/updatenote". login required
+=======
+// Route 3: Update an existing Note using: POST "/api/notes/updatenote". login required
+>>>>>>> 97f341d639b2ba6d7f874f13f188c0c2cb215484
 router.put(
   "/updatenote/:id", fetchuser, async (req, res) => {
     const {title, description, tag} = req.body;
@@ -70,6 +74,7 @@ router.put(
     res.json({note})
   })
 
+<<<<<<< HEAD
 // Route 4: Delte an existing Note using: DELETE "/api/notes/deletenote". login required
 router.delete(
   "/deletenote/:id", fetchuser, async (req, res) => {
@@ -92,3 +97,8 @@ router.delete(
 })
 
 module.exports = router;
+=======
+module.exports = router;
+
+
+>>>>>>> 97f341d639b2ba6d7f874f13f188c0c2cb215484

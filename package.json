@@ -1,15 +1,24 @@
 {
+<<<<<<< HEAD
   "name": "notebook",
+=======
+  "name": "mynotebook",
+>>>>>>> 97f341d639b2ba6d7f874f13f188c0c2cb215484
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "concurrently": "^8.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
+=======
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+>>>>>>> 97f341d639b2ba6d7f874f13f188c0c2cb215484
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -17,8 +26,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+<<<<<<< HEAD
     "eject": "react-scripts eject",
     "both": "concurrently \"npm run start\" \"nodemon backend/index.js\""
+=======
+    "eject": "react-scripts eject"
+>>>>>>> 97f341d639b2ba6d7f874f13f188c0c2cb215484
   },
   "eslintConfig": {
     "extends": [
